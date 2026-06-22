@@ -1,0 +1,36 @@
+.applications-container{
+    width:80%;
+    margin:auto;
+    padding:30px;
+}
+
+.app-card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.status{
+    padding:5px 12px;
+    border-radius:5px;
+    margin-left:10px;
+    color:white;
+}
+
+.applied{
+    background:#3498db;
+}
+
+.shortlisted{
+    background:#f39c12;
+}
+
+.interview{
+    background:#2ecc71;
+}
+
+.rejected{
+    background:#e74c3c;
+}

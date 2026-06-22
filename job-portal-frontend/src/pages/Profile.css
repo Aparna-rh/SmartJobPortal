@@ -1,0 +1,465 @@
+body{
+    background:#f4f7fc;
+    font-family:'Segoe UI',sans-serif;
+}
+
+
+/* Main */
+
+.profile-container{
+    max-width:1100px;
+    margin:30px auto;
+}
+
+
+/* Banner */
+
+.profile-banner{
+    height:220px;
+
+    border-radius:20px 20px 0 0;
+
+    background:linear-gradient(
+    135deg,
+    #0f4c81,
+    #2563eb);
+
+}
+
+
+
+/* White Card */
+
+.profile-card{
+
+    background:white;
+
+    margin:-90px 30px 30px;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 5px 25px rgba(0,0,0,.1);
+
+}
+
+
+
+/* Header */
+
+.profile-header{
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+/* Image */
+
+.profile-image{
+
+    width:170px;
+
+    height:170px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:6px solid white;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.2);
+
+}
+
+
+.profile-placeholder{
+
+    width:170px;
+
+    height:170px;
+
+    border-radius:50%;
+
+    background:#ecf0f1;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:14px;
+
+    color:#777;
+
+}
+
+
+
+/* User */
+
+.user-info{
+
+    flex:1;
+
+}
+
+
+.user-info h1{
+
+    margin:0;
+
+    font-size:32px;
+
+    color:#2c3e50;
+
+}
+
+
+.designation{
+
+    font-size:18px;
+
+    color:#2563eb;
+
+    font-weight:600;
+
+    margin-top:5px;
+
+}
+
+
+.user-info p{
+
+    margin:8px 0;
+
+    color:#555;
+
+    font-size:15px;
+
+}
+
+
+
+
+/* Stats */
+
+.stats{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:15px;
+
+}
+
+
+.stat-box{
+
+    background:#f8fafc;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    min-width:110px;
+
+}
+
+
+.stat-box h3{
+
+    margin:0;
+
+    color:#2563eb;
+
+}
+
+
+.stat-box p{
+
+    margin:5px 0 0;
+
+}
+
+
+
+
+/* Profile Strength */
+
+.completion-card{
+
+    margin-top:25px;
+
+    background:#fafafa;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}
+
+
+.progress{
+
+    width:100%;
+
+    height:12px;
+
+    border-radius:20px;
+
+    background:#ddd;
+
+    overflow:hidden;
+
+}
+
+
+.progress-fill{
+
+    width:85%;
+
+    height:100%;
+
+    background:#27ae60;
+
+}
+
+
+
+
+/* Sections */
+
+.info-section{
+
+
+    margin-top:25px;
+
+    padding:25px;
+
+    background:#fafafa;
+
+    border-radius:15px;
+
+}
+
+
+.info-section h3{
+
+
+    margin-bottom:20px;
+
+    color:#2c3e50;
+
+}
+
+
+
+/* Form */
+
+.form-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+
+.form-control{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+}
+
+
+.form-control:focus{
+
+    outline:none;
+
+    border:1px solid #2563eb;
+
+}
+
+
+
+
+textarea{
+
+    min-height:120px;
+
+}
+
+
+
+
+/* Skills */
+
+
+.skill{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    margin:5px;
+
+    border-radius:20px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:14px;
+
+}
+
+
+
+/* Resume */
+
+
+.resume-box{
+
+
+    background:#eef5ff;
+
+    padding:18px;
+
+    border-radius:12px;
+
+}
+
+
+
+
+/* Buttons */
+
+
+.save-btn{
+
+
+    background:#27ae60;
+
+
+    color:white;
+
+
+    padding:12px 30px;
+
+
+    border:none;
+
+
+    border-radius:10px;
+
+
+    cursor:pointer;
+
+
+    font-size:15px;
+
+}
+
+
+.save-btn:hover{
+
+
+    background:#1f9d57;
+
+}
+
+
+
+.edit-btn{
+
+
+    background:#2563eb;
+
+
+    color:white;
+
+
+    padding:12px 30px;
+
+
+    border:none;
+
+
+    border-radius:10px;
+
+
+    cursor:pointer;
+
+}
+
+
+
+.edit-btn:hover{
+
+
+    background:#1e40af;
+
+}
+
+
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.profile-header{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+
+.form-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.profile-card{
+
+margin:-60px 15px 20px;
+
+}
+
+
+.stats{
+
+flex-direction:column;
+
+}
+
+}

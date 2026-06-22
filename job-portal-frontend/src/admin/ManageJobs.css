@@ -1,0 +1,61 @@
+.page-container{
+    padding:30px;
+}
+
+.page-title{
+    font-size:28px;
+    font-weight:700;
+    color:#1e293b;
+    margin-bottom:20px;
+}
+
+.table-container{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    border:1px solid #e2e8f0;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.job-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.job-table th{
+    background:#1e293b;
+    color:white;
+    padding:16px;
+    text-align:left;
+}
+
+.job-table td{
+    padding:16px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.job-table tr:hover{
+    background:#f8fafc;
+}
+
+.delete-btn{
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:#b91c1c;
+}
+
+.salary-badge{
+    background:#dbeafe;
+    color:#2563eb;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
