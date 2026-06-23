@@ -14,7 +14,7 @@ function ManageJobs() {
   const fetchJobs = async () => {
 
     const res = await axios.get(
-      "http://localhost:8080/api/jobs"
+      "https://smartjobportal-production-25fb.up.railway.app/api/jobs"
     );
 
     setJobs(res.data);
@@ -27,7 +27,7 @@ function ManageJobs() {
     }
 
     await axios.delete(
-      `http://localhost:8080/api/jobs/${id}`
+      `https://smartjobportal-production-25fb.up.railway.app/api/jobs/${id}`
     );
 
     fetchJobs();

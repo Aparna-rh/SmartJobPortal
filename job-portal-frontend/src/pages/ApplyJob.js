@@ -44,7 +44,7 @@ try{
 
 const response=await fetch(
 
-`http://localhost:8080/api/jobs/${id}`
+`https://smartjobportal-production-25fb.up.railway.app/api/jobs/${id}`
 
 );
 
@@ -72,7 +72,7 @@ try{
 
 const response=await fetch(
 
-`http://localhost:8080/api/users/${userId}`
+`https://smartjobportal-production-25fb.up.railway.app/api/users/${userId}`
 
 );
 
@@ -189,7 +189,7 @@ try{
 await fetch(
 
 
-"http://localhost:8080/api/applications",
+"https://smartjobportal-production-25fb.up.railway.app/api/applications",
 
 
 {

@@ -21,7 +21,7 @@ const fetchApplications = ()=>{
 
 axios.get(
 
-`http://localhost:8080/api/applications/${userId}`
+`https://smartjobportal-production-25fb.up.railway.app/api/applications/${userId}`
 
 )
 
@@ -49,7 +49,7 @@ try{
 
 await axios.delete(
 
-`http://localhost:8080/api/applications/${id}`
+`https://smartjobportal-production-25fb.up.railway.app/api/applications/${id}`
 
 );
 

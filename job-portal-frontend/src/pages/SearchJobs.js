@@ -20,7 +20,7 @@ function SearchJobs() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/jobs"
+                "https://smartjobportal-production-25fb.up.railway.app/api/jobs"
             );
 
             const data = await response.json();
@@ -47,7 +47,7 @@ function SearchJobs() {
 
             const response = await fetch(
 
-                `http://localhost:8080/api/jobs/search?keyword=${keyword}`
+                `https://smartjobportal-production-25fb.up.railway.app/api/jobs/search?keyword=${keyword}`
 
             );
 
@@ -79,7 +79,7 @@ function SearchJobs() {
 
             const response=await fetch(
 
-                "http://localhost:8080/api/savedjobs",
+                "https://smartjobportal-production-25fb.up.railway.app/api/savedjobs",
 
                 {
 

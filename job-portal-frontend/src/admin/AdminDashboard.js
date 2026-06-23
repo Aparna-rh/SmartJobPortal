@@ -35,7 +35,7 @@ function AdminDashboard() {
   const fetchData = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:8080/api/admin/dashboard"
+        "https://smartjobportal-production-25fb.up.railway.app/api/admin/dashboard"
       );
 
       setData(res.data);

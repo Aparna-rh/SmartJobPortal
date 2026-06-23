@@ -15,7 +15,7 @@ function Job() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/jobs"
+                "https://smartjobportal-production-25fb.up.railway.app/api/jobs"
             );
 
             const data = await response.json();
@@ -38,7 +38,7 @@ function Job() {
         try {
 
             const response = await fetch(
-                `http://localhost:8080/api/jobs/search?keyword=${search}`
+                `https://smartjobportal-production-25fb.up.railway.app/api/jobs/search?keyword=${search}`
             );
 
             const data = await response.json();

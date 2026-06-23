@@ -30,7 +30,7 @@ const fetchDashboard=async()=>{
 try{
 
 const response=await fetch(
-"http://localhost:8080/api/dashboard"
+"https://smartjobportal-production-25fb.up.railway.app/api/dashboard"
 );
 
 const data=await response.json();

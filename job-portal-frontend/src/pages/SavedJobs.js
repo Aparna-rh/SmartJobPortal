@@ -16,7 +16,7 @@ const fetchJobs=async()=>{
 try{
 
 const res=await axios.get(
-`http://localhost:8080/api/savedjobs/${userId}`
+`https://smartjobportal-production-25fb.up.railway.app/api/savedjobs/${userId}`
 );
 
 setJobs(res.data);

@@ -25,7 +25,7 @@ function Notifications() {
       }
 
       const res = await axios.get(
-        `http://localhost:8080/api/notifications/${userId}`
+        `https://smartjobportal-production-25fb.up.railway.app/api/notifications/${userId}`
       );
 
       console.log("Notifications =", res.data);

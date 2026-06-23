@@ -13,7 +13,7 @@ function ManageApplications() {
   const fetchApplications = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:8080/api/applications"
+        "https://smartjobportal-production-25fb.up.railway.app/api/applications"
       );
 
       setApplications(res.data);
@@ -29,7 +29,7 @@ function ManageApplications() {
 
     try {
       await axios.delete(
-        `http://localhost:8080/api/applications/${id}`
+        `https://smartjobportal-production-25fb.up.railway.app/api/applications/${id}`
       );
 
       fetchApplications();
@@ -41,7 +41,7 @@ function ManageApplications() {
   const updateStatus = async (id, status) => {
     try {
       await axios.put(
-        `http://localhost:8080/api/applications/${id}/${status}`
+        `https://smartjobportal-production-25fb.up.railway.app/api/applications/${id}/${status}`
       );
 
       fetchApplications();

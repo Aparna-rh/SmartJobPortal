@@ -18,7 +18,7 @@ function ResumeUpload() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/resume/upload",
+                "https://smartjobportal-production-25fb.up.railway.app/api/resume/upload",
                 {
                     method: "POST",
                     body: formData

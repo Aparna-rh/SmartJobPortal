@@ -13,7 +13,7 @@ function ManageUsers() {
 
   const fetchUsers = async () => {
     const res = await axios.get(
-      "http://localhost:8080/api/users"
+      "https://smartjobportal-production-25fb.up.railway.app/api/users"
     );
 
     setUsers(res.data);
@@ -26,7 +26,7 @@ function ManageUsers() {
     }
 
     await axios.delete(
-      `http://localhost:8080/api/users/${id}`
+      `https://smartjobportal-production-25fb.up.railway.app/api/users/${id}`
     );
 
     fetchUsers();

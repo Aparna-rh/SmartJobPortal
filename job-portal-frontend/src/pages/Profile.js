@@ -50,7 +50,7 @@ const fetchProfile=async()=>{
 try{
 
 const response=await fetch(
-`http://localhost:8080/api/users/${userId}`
+`https://smartjobportal-production-25fb.up.railway.app/api/users/${userId}`
 );
 
 const data=await response.json();
@@ -134,7 +134,7 @@ try{
 
 await fetch(
 
-`http://localhost:8080/api/users/${userId}`,
+`https://smartjobportal-production-25fb.up.railway.app/api/users/${userId}`,
 
 {
 

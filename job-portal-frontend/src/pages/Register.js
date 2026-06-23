@@ -34,7 +34,7 @@ try{
 
 const response = await fetch(
 
-"http://localhost:8080/api/auth/register",
+"https://smartjobportal-production-25fb.up.railway.app/api/auth/register",
 
 {
 
