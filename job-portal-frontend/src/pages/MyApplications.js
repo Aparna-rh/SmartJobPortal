@@ -5,9 +5,8 @@ import "./MyApplications.css";
 function MyApplications() {
 
 const [applications,setApplications]=useState([]);
-
-const userId = 1;
-
+const user = JSON.parse(localStorage.getItem("user"));
+const userId = user?.id;
 
 useEffect(()=>{
 
